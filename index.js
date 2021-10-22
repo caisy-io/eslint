@@ -6,13 +6,12 @@ module.exports = {
     "extends": [
         "plugin:react/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:@typescript-eslint/recommended",
-        "prettier"
+        "plugin:@typescript-eslint/recommended"
     ],
     "overrides": [
         {
         "files": ["*.tsx", "*.ts"],
-        "extends": ["plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
+        "extends": ["plugin:@typescript-eslint/recommended"],
         "rules": {
             "react/react-in-jsx-scope": "off",
             "@typescript-eslint/explicit-module-boundary-types": "off",
@@ -43,12 +42,6 @@ module.exports = {
                 }
             }
             ],
-            "prettier/prettier": [
-            "error",
-            {
-                "endOfLine": "auto"
-            }
-            ]
         }
         }
     ],
