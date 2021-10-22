@@ -6,6 +6,7 @@ yarn add @caisy/eslint-config-caisy -D
 ```
 
 ## Usage:
+Add this to your .eslintrc:
 ```json
 {
     "extends": "@caisy/eslint-config-caisy"
