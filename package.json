@@ -1,4 +1,7 @@
 {
+    "name": "@caisy/eslint-config-caisy",
+	"repository": "git://github.com/caisy-io/eslint.git",
+	"main": "index.js",
     "peerDependencies": {
         "eslint": ">= 3"
     }
